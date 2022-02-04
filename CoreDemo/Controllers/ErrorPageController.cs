@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoreDemo.Controllers
 {
-    public class Category : Controller
+    public class ErrorPageController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Error1(int code)
         {
             return View();
         }
