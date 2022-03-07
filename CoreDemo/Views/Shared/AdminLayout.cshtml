@@ -39,7 +39,7 @@
                     </div>
                     <ul class="nav navbar-top-links navbar-right">
                         <li>
-                            <span class="m-r-sm text-muted welcome-message">Welcome to INSPINIA+ Admin Theme.</span>
+                            <span class="m-r-sm text-muted welcome-message">Admin Paneline Hoşgeldiniz</span>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -149,16 +149,16 @@
             </div>
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-10">
-                    <h2>Static Tables</h2>
+                    <h2>İstatistikler</h2>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <a href="index.html">Dashoard</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a>Tables</a>
+                            <a>Tablolar</a>
                         </li>
                         <li class="breadcrumb-item active">
-                            <strong>Static Tables</strong>
+                            <strong>Widgets</strong>
                         </li>
                     </ol>
                 </div>
@@ -209,7 +209,7 @@
                 radioClass: 'iradio_square-green',
             });
         });</script>
-
+    @await RenderSectionAsync("scripts")
 </body>
 
 </html>
